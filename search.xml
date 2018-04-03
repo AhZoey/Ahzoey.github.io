@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title>hexo部署</title>
+      <link href="/2018/03/09/hexo/hexoinit/"/>
+      <content type="html"><![CDATA[<h4>一、准备工作</h4><ul><li>环境</li></ul><p>window</p><ul><li>安装node.js</li></ul>下载nodejs并一直下一步就好了<h4>二、本地部署</h4><ul><li>下载安装包 <figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> -g hexo</span><br></pre></td></tr></table></figure></li></ul><p>如果下载不下来，可以改用淘宝镜像</p><ul><li>创建hexo文件夹</li></ul><p>在想要建立blog的路径下创建hexo <figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">install</span></span><br></pre></td></tr></table></figure></p><ul><li>安装依赖</li></ul><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> </span><br></pre></td></tr></table></figure><ul><li>运行并本地查看</li></ul><p>使用 Hexo 生成静态文件 <figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">generate</span> 或者  hexo g</span><br></pre></td></tr></table></figure> 也可以只生成改动过的文件 <figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo <span class="keyword">generate</span> --watch</span><br><span class="line"></span><br></pre></td></tr></table></figure></p><figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">server</span></span><br></pre></td></tr></table></figure><p>如果没有hexo-server需要安装 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo-<span class="keyword">server</span> <span class="comment">--save</span></span><br></pre></td></tr></table></figure> 本地启动的默认端口是4000，如果端口被占用 <figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo<span class="built_in"> server </span>-p 5000</span><br></pre></td></tr></table></figure> 默认请求localhost:4000 也可以指定ip <figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo<span class="built_in"> server </span>-i 192.168.1.1</span><br></pre></td></tr></table></figure></p><h4>三、部署Github上</h4><ul><li>注册git账号(有账号跳过)</li></ul>[upload successful](\images-0.png) - 安装git(略过) - 创建一个页面仓库<h4>四、部署服务器上</h4>]]></content>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>hexotheme</title>
+      <link href="/2018/03/09/hexotheme/"/>
+      <content type="html"><![CDATA[<p>&lt;%- image_tag(&quot;\images-1.png&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;) %&gt;</p><p><img src="/2018/03/09/hexotheme/pasted-1.png" alt="你想输入的替代文字"> &lt;%- image_tag(hexotheme-1.png) %&gt;</p>]]></content>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>NO.1</title>
+      <link href="/2018/03/09/algorithm/BigTalkDataStructure.1/"/>
+      <content type="html"><![CDATA[<span>$$\begin{aligned}\dot{x} &amp; = \sigma(y-x) \\\dot{y} &amp; = \rho x - y - xz \\\dot{z} &amp; = -\beta z + xy\end{aligned}$$</span><!-- Has MathJax -->]]></content>
+      
+      <categories>
+          
+          <category> 算法 </category>
+          
+          <category> 大话数据结构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+            <tag> 大话数据结构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+  
+  
+</search>
